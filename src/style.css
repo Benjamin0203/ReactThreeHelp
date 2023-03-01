@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: ivory; */
+    background: #000;
+}
+
+canvas {
+    touch-action: none;
+}
+.htmlScene iframe {
+    width: 1024px;
+    height: 670px;
+    border: none;
+    border-radius: 30px;
+    background: #000000;
+}
